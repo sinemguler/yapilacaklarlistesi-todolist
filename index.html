@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand:wght@300&family=Roboto:wght@300&family=Tajawal:wght@300&display=swap"
+        rel="stylesheet">
+    <title>ToDoApp</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header-all">
+            <h1 class="header-title">Yapılacaklar Listesi</h1>
+            <form class="search">
+                <input class="form-control" type="text" name="search" placeholder="Ara...">
+            </form>
+        </header>
+        <ul class="list-group todos">
+            <li class="list-group-item">
+                <span>Kahvaltı Yap</span>
+                <lord-icon class="delete" src="https://cdn.lordicon.com/dovoajyj.json" trigger="loop-on-hover"
+                    delay="2000">
+                </lord-icon>
+            </li>
+            <li class="list-group-item">
+                <span>Yürüyüşe Git</span>
+                <lord-icon class="delete" src="https://cdn.lordicon.com/dovoajyj.json" trigger="loop-on-hover"
+                    delay="2000">
+                </lord-icon>
+            </li>
+            <li class="list-group-item">
+                <span>Ders Çalış</span>
+                <lord-icon class="delete" src="https://cdn.lordicon.com/dovoajyj.json" trigger="loop-on-hover"
+                    delay="2000">
+                </lord-icon>
+            </li>
+            <li class="list-group-item">
+                <span>Çöpleri At</span>
+                <lord-icon class="delete" src="https://cdn.lordicon.com/dovoajyj.json" trigger="loop-on-hover"
+                    delay="2000">
+                </lord-icon>
+            </li>
+            <li class="list-group-item">
+                <span>Dizi İzle</span>
+                <lord-icon class="delete" src="https://cdn.lordicon.com/dovoajyj.json" trigger="loop-on-hover"
+                    delay="2000">
+                </lord-icon>
+            </li>
+        </ul>
+        <form class="new-form add">
+            <label class="title">Yeni İş Ekle</label>
+            <input class="form-control" type="text" name="add">
+        </form>
+    </div>
+</body>
+<script src="do.js"></script>
+<script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+</html>
